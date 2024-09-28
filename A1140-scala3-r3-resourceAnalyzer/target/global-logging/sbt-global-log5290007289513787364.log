@@ -1,0 +1,44 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(a8ebcce7-a79b-4c38-a319-b3db835217e5), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Aalto\DSA\A1140-scala3-r3-resourceAnalyzer\target\scala-3.3.3\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mResourceAnalyzerSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThe class ResourceAnalyzerSlow[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work correctly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThe class ResourceAnalyzerFast[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should work correctly *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at resourceAnalyzer.ResourceAnalyzerFast.newTask(ResourceAnalyzer.scala:80)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at tests.ResourceAnalyzerSpec.testFun$proxy2$1$$anonfun$2$$anonfun$1$$anonfun$1(ResourceAnalyzerSpec.scala:54)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.List.foreach(List.scala:333)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at tests.ResourceAnalyzerSpec.testFun$proxy2$1$$anonfun$2$$anonfun$1(ResourceAnalyzerSpec.scala:55)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Assertions.withClue(Assertions.scala:1208)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Assertions.withClue$(Assertions.scala:421)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.flatspec.AnyFlatSpec.withClue(AnyFlatSpec.scala:1685)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at tests.ResourceAnalyzerSpec.testFun$proxy2$1$$anonfun$2(ResourceAnalyzerSpec.scala:57)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:576)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should be significantly faster than ResourceAnalyzerSlow on inputs 60000 tasks spanning 10000 time units *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at resourceAnalyzer.ResourceAnalyzerFast.newTask(ResourceAnalyzer.scala:80)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at tests.ResourceAnalyzerSpec.$anonfun$4$$anonfun$1(ResourceAnalyzerSpec.scala:87)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.List.foreach(List.scala:333)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at tests.ResourceAnalyzerSpec.$anonfun$4(ResourceAnalyzerSpec.scala:89)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at timer.package$package$.measureWallClockTime(package.scala:19)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at tests.ResourceAnalyzerSpec.testFun$proxy3$1$$anonfun$1(ResourceAnalyzerSpec.scala:91)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.runtime.java8.JFunction1$mcVI$sp.apply(JFunction1$mcVI$sp.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.Range.foreach(Range.scala:190)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at tests.ResourceAnalyzerSpec.testFun$proxy3$1(ResourceAnalyzerSpec.scala:97)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 1 second, 277 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 1, failed 2, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 2 TESTS FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	tests.ResourceAnalyzerSpec[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 6 s, completed Sep 27, 2024, 11:33:28 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

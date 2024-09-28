@@ -1,0 +1,25 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(20aa25b4-e793-47f7-88c2-ff841f8f8b9a), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Aalto\DSA\A1140-scala3-r2-radixSort\target\scala-3.3.3\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRadixSortSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThe lsdRadixSort method[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work correctly on arrays of non-negative integers[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be faster than java.util.Arrays.sort on large arrays of non-negative integers[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should work correctly on arrays of arbitrary integers *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  At index 0: 1374381742 was not equal to -124706277 (RadixSortSpec.scala:107)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should be faster than java.util.Arrays.sort on large arrays of arbitrary integers *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  At index 0: 1642 was not equal to -2147483477 (RadixSortSpec.scala:49)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be at most 3 times slower than java.util.Arrays.sort on large arrays of non-negative integers drawn from a small set (not included in the grader)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be faster than java.util.Arrays.sort on large almost-sorted arrays of non-negative integers (not included in the grader)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 28 seconds, 158 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 6[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 4, failed 2, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 2 TESTS FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	tests.RadixSortSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 29 s, completed Sep 20, 2024, 12:30:25 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

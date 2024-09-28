@@ -1,0 +1,13 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: C:\Aalto\DSA\A1140-scala3-r3-huffman\src\main\scala\huffman\package.scala:68:25 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m68 |[0m          result += leaf.byte[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                    ^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    value byte is not a member of huffman.Leaf - did you mean leaf.size?[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: C:\Aalto\DSA\A1140-scala3-r3-huffman\src\main\scala\huffman\package.scala:108:26 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m108 |[0m  [33mcase[0m leaf: Leaf => leaf.frequency[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                     ^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                     value frequency is not a member of huffman.Leaf[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: C:\Aalto\DSA\A1140-scala3-r3-huffman\src\main\scala\huffman\package.scala:122:32 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m122 |[0m    [33mcase[0m leaf: Leaf => Map(leaf.byte -> code)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                           ^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m  value byte is not a member of huffman.Leaf - did you mean leaf.size?[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m

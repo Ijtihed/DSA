@@ -1,0 +1,13 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(b2e33de7-5414-4ae8-a9e4-f6f19a1b2ce9), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Aalto\DSA\A1140-scala3-r3-unionFind\target\scala-3.3.3\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: C:\Aalto\DSA\A1140-scala3-r3-unionFind\src\main\scala\unionFind\UnionFind.scala:48:14 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m48 |[0m      [33mif[0m sets.connectedComponents == [31m1[0m [33mthen[0m [33mreturn[0m Some(w)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m         ^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m   value connectedComponents is not a member of unionFind.UnionFind[Int][0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 3 s, completed Sep 27, 2024, 11:51:38 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[31merror[0m] [0m[0mserver failed to start on local:sbt-server-4ab182e119f64acfcd32. java.io.IOException: Could not create lock for \\.\pipe\sbt-server-4ab182e119f64acfcd32_lock, error 5[0m

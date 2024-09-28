@@ -1,0 +1,27 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(e53fbb5d-2333-413a-b9f6-8e19507b9d59), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRadixSortSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThe lsdRadixSort method[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work correctly on arrays of non-negative integers[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should be faster than java.util.Arrays.sort on large arrays of non-negative integers *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  0.9430347329581451 was not greater than 1.0 (RadixSortSpec.scala:93)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should work correctly on arrays of arbitrary integers *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  At index 0: 36668074 was not equal to -1200389222 (RadixSortSpec.scala:107)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should be faster than java.util.Arrays.sort on large arrays of arbitrary integers *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  At index 0: 535 was not equal to -2147483095 (RadixSortSpec.scala:49)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should be at most 3 times slower than java.util.Arrays.sort on large arrays of non-negative integers drawn from a small set (not included in the grader) *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  0.11747553563517568 was not greater than 0.3333333333333333 (RadixSortSpec.scala:138)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should be faster than java.util.Arrays.sort on large almost-sorted arrays of non-negative integers (not included in the grader) *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  0.28151326948551336 was not greater than 1.0 (RadixSortSpec.scala:156)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 38 seconds, 529 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 6[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 1, failed 5, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 5 TESTS FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	tests.RadixSortSpec[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 40 s, completed Sep 20, 2024, 12:56:43 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[31merror[0m] [0m[0mserver failed to start on local:sbt-server-0232a12508388dec0882. java.io.IOException: Could not create lock for \\.\pipe\sbt-server-0232a12508388dec0882_lock, error 5[0m

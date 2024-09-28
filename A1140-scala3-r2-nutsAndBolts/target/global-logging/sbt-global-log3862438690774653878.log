@@ -1,0 +1,18 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(9da74878-cfc1-461b-9909-f4c8e2345bfc), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Aalto\DSA\A1140-scala3-r2-nutsAndBolts\target\scala-3.3.3\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMatcherSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThe slow matcher[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work correctly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThe fast matcher[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work correctly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be significantly faster than the quadratic time algorithm on largish instances and only use at most 4*n*log(n) comparisons[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 38 seconds, 976 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 3, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 39 s, completed Sep 20, 2024, 9:59:44 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m

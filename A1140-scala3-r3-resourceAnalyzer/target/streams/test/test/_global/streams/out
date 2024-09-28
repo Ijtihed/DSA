@@ -1,0 +1,14 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(tests.ResourceAnalyzerSpec, org.scalatest.tools.Framework$$anon$1@132f46e1, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mResourceAnalyzerSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThe class ResourceAnalyzerSlow[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work correctly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThe class ResourceAnalyzerFast[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work correctly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be significantly faster than ResourceAnalyzerSlow on inputs 60000 tasks spanning 10000 time units[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 11 seconds, 770 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 3, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tests.ResourceAnalyzerSpec[0m

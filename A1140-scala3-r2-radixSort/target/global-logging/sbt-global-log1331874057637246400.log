@@ -1,0 +1,44 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(b81c75c5-1ad7-4389-a553-845d9b59870c), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRadixSortSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThe lsdRadixSort method[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should work correctly on arrays of non-negative integers *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at radixSort.package$package$.lsdRadixSort(package.scala:56)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at tests.RadixSortSpec.testFun$proxy1$1$$anonfun$1(RadixSortSpec.scala:78)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.runtime.java8.JFunction1$mcVI$sp.apply(JFunction1$mcVI$sp.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.Range.foreach(Range.scala:190)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at tests.RadixSortSpec.testFun$proxy1$1(RadixSortSpec.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at tests.RadixSortSpec.$init$$$anonfun$1(RadixSortSpec.scala:68)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should be faster than java.util.Arrays.sort on large arrays of non-negative integers *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.ArrayIndexOutOfBoundsException:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should work correctly on arrays of arbitrary integers *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  At index 0: 1952048712 was not equal to -258084635 (RadixSortSpec.scala:107)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should be faster than java.util.Arrays.sort on large arrays of arbitrary integers *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.ArrayIndexOutOfBoundsException:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should be at most 3 times slower than java.util.Arrays.sort on large arrays of non-negative integers drawn from a small set (not included in the grader) *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.ArrayIndexOutOfBoundsException:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should be faster than java.util.Arrays.sort on large almost-sorted arrays of non-negative integers (not included in the grader) *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.ArrayIndexOutOfBoundsException:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 1 second, 720 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 6[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 0, failed 6, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 6 TESTS FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	tests.RadixSortSpec[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 2 s, completed Sep 20, 2024, 1:09:31 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[31merror[0m] [0m[0mserver failed to start on local:sbt-server-0232a12508388dec0882. java.io.IOException: Could not create lock for \\.\pipe\sbt-server-0232a12508388dec0882_lock, error 5[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m

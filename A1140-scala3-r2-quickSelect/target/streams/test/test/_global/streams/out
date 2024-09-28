@@ -1,0 +1,15 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(tests.QuickSelectSpec, org.scalatest.tools.Framework$$anon$1@5fb84f4c, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mQuickSelectSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mYour quickselect implementation[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should compute correct results on some selected inputs[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should compute correct results on some random inputs[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be somewhat faster than the approach based on applying java.util.Arrays.sort on longish sequences of integers[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be as fast as the approach based on applying java.util.Arrays.sort on longish almost-sorted sequences of integers[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be as fast as the approach based on applying java.util.Arrays.sort on sequences of small integers (=> lots of equal values in the array)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 2 seconds, 726 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 5[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 5, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tests.QuickSelectSpec[0m

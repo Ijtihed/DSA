@@ -1,0 +1,56 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(tests.HuffmanSpec, org.scalatest.tools.Framework$$anon$1@6c59fe7, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mHuffmanSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThe buildTree method[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work correctly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThe getTable method[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work correctly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThe encodeTree method[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should work correctly *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at huffman.package$package$.encodeTree(package.scala:156)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at tests.HuffmanSpec.testFun$proxy3$1$$anonfun$2$$anonfun$1(HuffmanSpec.scala:110)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Assertions.withClue(Assertions.scala:1208)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Assertions.withClue$(Assertions.scala:421)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.flatspec.AnyFlatSpec.withClue(AnyFlatSpec.scala:1685)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at tests.HuffmanSpec.testFun$proxy3$1$$anonfun$2(HuffmanSpec.scala:112)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:576)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:574)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.AbstractIterable.foreach(Iterable.scala:933)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThe decodeTree method[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should work correctly *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at huffman.package$package$.decodeTree(package.scala:165)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at tests.HuffmanSpec.testFun$proxy4$1$$anonfun$2$$anonfun$1(HuffmanSpec.scala:133)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Assertions.withClue(Assertions.scala:1208)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Assertions.withClue$(Assertions.scala:421)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.flatspec.AnyFlatSpec.withClue(AnyFlatSpec.scala:1685)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at tests.HuffmanSpec.testFun$proxy4$1$$anonfun$2(HuffmanSpec.scala:135)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:576)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:574)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.AbstractIterable.foreach(Iterable.scala:933)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mEncoding and decoding[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should work correctly *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at huffman.package$package$.encodeTree(package.scala:156)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at huffman.package$package$.encode(package.scala:52)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at tests.HuffmanSpec.testFun$proxy5$1$$anonfun$2$$anonfun$1(HuffmanSpec.scala:147)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Assertions.withClue(Assertions.scala:1208)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Assertions.withClue$(Assertions.scala:421)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.flatspec.AnyFlatSpec.withClue(AnyFlatSpec.scala:1685)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at tests.HuffmanSpec.testFun$proxy5$1$$anonfun$2(HuffmanSpec.scala:155)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:576)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:574)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 337 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 5[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 2, failed 3, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 3 TESTS FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	tests.HuffmanSpec[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m

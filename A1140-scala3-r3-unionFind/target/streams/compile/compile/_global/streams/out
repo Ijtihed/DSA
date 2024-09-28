@@ -1,0 +1,5 @@
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: C:\Aalto\DSA\A1140-scala3-r3-unionFind\src\main\scala\unionFind\UnionFind.scala:48:32 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m48 |[0m      [33mif[0m sets.nofSets == [31m1[0m [33mthen[0m [33mreturn[0m Some(w)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m                                ^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mNon local returns are no longer supported; use `boundary` and `boundary.break` in `scala.util` instead[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

@@ -1,0 +1,14 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(tests.MatcherSpec, org.scalatest.tools.Framework$$anon$1@6df09652, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMatcherSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThe slow matcher[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work correctly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThe fast matcher[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work correctly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be significantly faster than the quadratic time algorithm on largish instances and only use at most 4*n*log(n) comparisons[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 38 seconds, 976 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 3, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tests.MatcherSpec[0m

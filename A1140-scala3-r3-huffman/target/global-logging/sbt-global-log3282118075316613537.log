@@ -1,0 +1,24 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(48572a58-9125-4465-9c41-650d76719a99), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to C:\Aalto\DSA\A1140-scala3-r3-huffman\target\scala-3.3.3\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E161] Naming Error: C:\Aalto\DSA\A1140-scala3-r3-huffman\src\main\scala\huffman\package.scala:19:13 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m19 |[0m[33msealed[0m [33mtrait[0m [35mNode[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mNode is already defined as [33mclass[0m [35mNode[0m in C:\Aalto\DSA\A1140-scala3-r3-huffman\src\main\scala\huffman\Node.scala[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E107] Syntax Error: C:\Aalto\DSA\A1140-scala3-r3-huffman\src\main\scala\huffman\package.scala:82:23 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m82 |[0m      [33mcase[0m InternalNode(left, right) =>[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m           ^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mWrong number of argument patterns for huffman.InternalNode; expected: (huffman.Node, huffman.Node, Int)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Aalto\DSA\A1140-scala3-r3-huffman\src\main\scala\huffman\package.scala:109:11 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m109 |[0m  [33mval[0m [36mpq[0m = PriorityQueue.empty(Ordering.by[[35mNode[0m, [35mInt[0m] {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m           ^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m           Not found: PriorityQueue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed Sep 27, 2024, 12:16:42 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

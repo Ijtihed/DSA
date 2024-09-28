@@ -1,0 +1,179 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(a4ac565f-9176-4cfe-9fa4-82e232b7dddb), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to C:\Aalto\DSA\A1140-scala3-r3-huffman\target\scala-3.3.3\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Aalto\DSA\A1140-scala3-r3-huffman\src\main\scala\huffman\package.scala:72:11 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m72 |[0m      [33mcase[0m LeafNode(b0, _) =>[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m           ^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m           Not found: LeafNode[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: C:\Aalto\DSA\A1140-scala3-r3-huffman\src\main\scala\huffman\package.scala:74:18 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m74 |[0m        result += b0[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                  ^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                  Found:    (b0 : Any)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                  Required: Byte[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Aalto\DSA\A1140-scala3-r3-huffman\src\main\scala\huffman\package.scala:77:11 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m77 |[0m      [33mcase[0m InternalNode(left, right, _) =>[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m           ^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m           Not found: InternalNode[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: C:\Aalto\DSA\A1140-scala3-r3-huffman\src\main\scala\huffman\package.scala:79:18 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m79 |[0m        [33mif[0m b [33mthen[0m right [33melse[0m left[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                  ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                  Found:    (right : Any)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                  Required: huffman.Node[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: C:\Aalto\DSA\A1140-scala3-r3-huffman\src\main\scala\huffman\package.scala:79:29 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m79 |[0m        [33mif[0m b [33mthen[0m right [33melse[0m left[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                             ^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                             Found:    (left : Any)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                             Required: huffman.Node[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Aalto\DSA\A1140-scala3-r3-huffman\src\main\scala\huffman\package.scala:105:9 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m105 |[0m    [33mcase[0m LeafNode(_, freq) => -freq[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m         ^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m         Not found: LeafNode[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: C:\Aalto\DSA\A1140-scala3-r3-huffman\src\main\scala\huffman\package.scala:105:30 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m105 |[0m    [33mcase[0m LeafNode(_, freq) => -freq[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                              ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0mvalue unary_- is not a member of Any, but could be made available as an extension method.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0mOne of the following imports might make progress towards fixing the problem:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m  import scala.math.Fractional.Implicits.infixFractionalOps[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m  import scala.math.Integral.Implicits.infixIntegralOps[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m  import scala.math.Numeric.Implicits.infixNumericOps[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Aalto\DSA\A1140-scala3-r3-huffman\src\main\scala\huffman\package.scala:106:9 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m106 |[0m    [33mcase[0m InternalNode(_, _, freq) => -freq[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m         ^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m         Not found: InternalNode[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: C:\Aalto\DSA\A1140-scala3-r3-huffman\src\main\scala\huffman\package.scala:106:37 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m106 |[0m    [33mcase[0m InternalNode(_, _, freq) => -freq[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                     ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0mvalue unary_- is not a member of Any, but could be made available as an extension method.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0mOne of the following imports might make progress towards fixing the problem:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m  import scala.math.Fractional.Implicits.infixFractionalOps[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m  import scala.math.Integral.Implicits.infixIntegralOps[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m  import scala.math.Numeric.Implicits.infixNumericOps[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Aalto\DSA\A1140-scala3-r3-huffman\src\main\scala\huffman\package.scala:110:15 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m110 |[0m    pq.enqueue(LeafNode(byte, freq))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m               ^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m               Not found: LeafNode[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Aalto\DSA\A1140-scala3-r3-huffman\src\main\scala\huffman\package.scala:116:21 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m116 |[0m    [33mval[0m [36mmergedNode[0m = InternalNode(left, right, freq = frequency(left) + frequency(right))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                     ^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                     Not found: InternalNode[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Aalto\DSA\A1140-scala3-r3-huffman\src\main\scala\huffman\package.scala:124:7 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m124 |[0m  [33mcase[0m LeafNode(_, freq) => freq[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m       ^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m       Not found: LeafNode[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: C:\Aalto\DSA\A1140-scala3-r3-huffman\src\main\scala\huffman\package.scala:124:28 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m124 |[0m  [33mcase[0m LeafNode(_, freq) => freq[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                            ^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                            Found:    (freq : Any)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                            Required: Int[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Aalto\DSA\A1140-scala3-r3-huffman\src\main\scala\huffman\package.scala:125:7 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m125 |[0m  [33mcase[0m InternalNode(_, _, freq) => freq[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m       ^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m       Not found: InternalNode[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: C:\Aalto\DSA\A1140-scala3-r3-huffman\src\main\scala\huffman\package.scala:125:35 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m125 |[0m  [33mcase[0m InternalNode(_, _, freq) => freq[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                   ^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                   Found:    (freq : Any)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                   Required: Int[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Aalto\DSA\A1140-scala3-r3-huffman\src\main\scala\huffman\package.scala:142:9 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m142 |[0m    [33mcase[0m LeafNode(byte, _) => Map(byte -> path)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m         ^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m         Not found: LeafNode[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: C:\Aalto\DSA\A1140-scala3-r3-huffman\src\main\scala\huffman\package.scala:142:34 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m142 |[0m    [33mcase[0m LeafNode(byte, _) => Map(byte -> path)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                  ^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                  Found:    ([1m[31mAny[0m, Vector[Boolean])[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                  Required: ([1m[32mByte[0m, Vector[Boolean])[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Aalto\DSA\A1140-scala3-r3-huffman\src\main\scala\huffman\package.scala:143:9 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m143 |[0m    [33mcase[0m InternalNode(left, right, _) =>[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m         ^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m         Not found: InternalNode[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: C:\Aalto\DSA\A1140-scala3-r3-huffman\src\main\scala\huffman\package.scala:144:15 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m144 |[0m      traverse(left, path :+ [31mfalse[0m) ++ traverse(right, path :+ [31mtrue[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m               ^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m               Found:    (left : Any)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m               Required: huffman.Node[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Aalto\DSA\A1140-scala3-r3-huffman\src\main\scala\huffman\package.scala:164:9 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m164 |[0m    [33mcase[0m LeafNode(byte, _) =>[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m         ^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m         Not found: LeafNode[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: C:\Aalto\DSA\A1140-scala3-r3-huffman\src\main\scala\huffman\package.scala:165:33 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m165 |[0m      Vector([31mtrue[0m) ++ byteToBits(byte)  [34m// A leaf node is represented by '1' followed by the byte[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                 ^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                 Found:    (byte : Any)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                 Required: Byte[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Aalto\DSA\A1140-scala3-r3-huffman\src\main\scala\huffman\package.scala:166:9 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m166 |[0m    [33mcase[0m InternalNode(left, right, _) =>[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m         ^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m         Not found: InternalNode[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: C:\Aalto\DSA\A1140-scala3-r3-huffman\src\main\scala\huffman\package.scala:167:32 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m167 |[0m      Vector([31mfalse[0m) ++ traverse(left) ++ traverse(right)  [34m// An internal node is represented by '0'[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                ^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                Found:    (left : Any)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                Required: huffman.Node[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Aalto\DSA\A1140-scala3-r3-huffman\src\main\scala\huffman\package.scala:194:6 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m194 |[0m      LeafNode(byte, [31m0[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m      ^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m      Not found: LeafNode[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Aalto\DSA\A1140-scala3-r3-huffman\src\main\scala\huffman\package.scala:200:6 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m200 |[0m      InternalNode(left, right, [31m0[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m      ^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m      Not found: InternalNode[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m25 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 4 s, completed Sep 27, 2024, 12:24:20 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[31merror[0m] [0m[0mserver failed to start on local:sbt-server-2501ccc9fe110c51c82a. java.io.IOException: Could not create lock for \\.\pipe\sbt-server-2501ccc9fe110c51c82a_lock, error 5[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m

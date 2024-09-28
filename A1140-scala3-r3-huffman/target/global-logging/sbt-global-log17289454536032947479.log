@@ -1,0 +1,57 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(c1155047-5920-4038-ab7e-93e42b8184e5), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to C:\Aalto\DSA\A1140-scala3-r3-huffman\target\scala-3.3.3\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E040] Syntax Error: C:\Aalto\DSA\A1140-scala3-r3-huffman\src\main\scala\huffman\package.scala:126:0 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m126 |[0m}[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0meof expected, but '}' found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Aalto\DSA\A1140-scala3-r3-huffman\src\main\scala\huffman\package.scala:42:16 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m42 |[0m    [33mval[0m [36mtable[0m = getTable(tree)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                ^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                Not found: getTable[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Aalto\DSA\A1140-scala3-r3-huffman\src\main\scala\huffman\package.scala:52:20 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m52 |[0m  [33mval[0m [36mencodedTree[0m = encodeTree(tree)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                    ^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                    Not found: encodeTree[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Aalto\DSA\A1140-scala3-r3-huffman\src\main\scala\huffman\package.scala:66:13 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m66 |[0m  [33mval[0m [36mtree[0m = decodeTree(encodedTree)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m             ^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m             Not found: decodeTree[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Aalto\DSA\A1140-scala3-r3-huffman\src\main\scala\huffman\package.scala:79:29 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m79 |[0m          [33mif[0m bit [33mthen[0m node = right[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                             ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                             Not found: right[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Aalto\DSA\A1140-scala3-r3-huffman\src\main\scala\huffman\package.scala:80:22 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m80 |[0m          [33melse[0m node = left[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                      ^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                      Not found: left[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Aalto\DSA\A1140-scala3-r3-huffman\src\main\scala\huffman\package.scala:83:20 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m83 |[0m          result += byte[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                    ^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                    Not found: byte[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: C:\Aalto\DSA\A1140-scala3-r3-huffman\src\main\scala\huffman\package.scala:110:77 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m110 |[0m  [33mval[0m [36mpq[0m = scala.collection.mutable.PriorityQueue.empty[[35mNode[0m](Ordering.by(-_.frequency))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                                                           ^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                       value frequency is not a member of huffman.Node[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E172] Type Error: C:\Aalto\DSA\A1140-scala3-r3-huffman\src\main\scala\huffman\package.scala:110:87 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m110 |[0m  [33mval[0m [36mpq[0m = scala.collection.mutable.PriorityQueue.empty[[35mNode[0m](Ordering.by(-_.frequency))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                                                                       ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0mAmbiguous given instances: both [33mobject[0m [35mBoolean[0m in [33mobject[0m [35mOrdering[0m and [33mobject[0m [35mSymbol[0m in [33mobject[0m [35mOrdering[0m match type Ordering[S] of parameter ord of [33mmethod[0m [35mby[0m in [33mobject[0m [35mOrdering[0m[0m
+[0m[[0m[31merror[0m] [0m[0m9 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 4 s, completed Sep 27, 2024, 2:29:14 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[31merror[0m] [0m[0mserver failed to start on local:sbt-server-2501ccc9fe110c51c82a. java.io.IOException: Could not create lock for \\.\pipe\sbt-server-2501ccc9fe110c51c82a_lock, error 5[0m
